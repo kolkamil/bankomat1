@@ -4,8 +4,11 @@ public class Main {
 
     public static void main(String[] args) {
         Bankomat bankomat = new Bankomat();
-        bankomat.wyborKonta();
-
+        Scanner scanner = new Scanner(System.in);
+        boolean kontynuuj = true;
+        while(kontynuuj) {
+            bankomat.wyborKonta();
+        }
     }
 
 
